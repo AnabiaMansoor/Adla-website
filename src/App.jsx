@@ -4,13 +4,14 @@ import './App.css'
 import Navbar from './components/Navbar'
 import HeroSection from "./components/HeroSection";
 import StatsSection from "./components/StatsSection";
-import About from "./components/Aboutus";
+import AboutUs from "./components/Aboutus";
 import Achievements from "./components/Achievements";
 import Capabilities from "./components/Capabilities";
 import BannerSec from "./components/BannerSection";
 import Stories from "./components/Stories";
 import Brands from './components/Brands';
 import Footer from "./components/Footer";
+import AboutUs from "./components/Aboutus";
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
         <Navbar />
         <HeroSection/>
         <StatsSection/>
-        <About/>
+        <AboutUs/>
         <Achievements/>
         <BannerSec/>
         <Stories/>
